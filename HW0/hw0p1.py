@@ -19,7 +19,7 @@ preprocess = transforms.Compose([
             std=[0.229, 0.224, 0.225]
         )])
 
-img = Image.open("randomResNetPics/guitar")
+img = Image.open("randomResNetPics/waterbottle.jpeg")
 img_t = preprocess(img)
 batch_t=torch.unsqueeze(img_t,0)
 

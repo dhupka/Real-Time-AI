@@ -2,10 +2,6 @@
 #ECGR 4090 Real-Time AI
 #02/11/2021
 
-#Damian Hupka
-#ECGR 4090 Real-Time AI
-#02/11/2021
-
 from torchvision import models 
 from torchvision import transforms
 from PIL import Image
@@ -23,7 +19,7 @@ preprocess = transforms.Compose([
             std=[0.229, 0.224, 0.225]
         )])
 
-img = Image.open("randomResNetPics/guitar")
+img = Image.open("randomResNetPics/waterbottle.jpeg")
 img_t = preprocess(img)
 batch_t=torch.unsqueeze(img_t,0)
 
@@ -40,7 +36,7 @@ print([(labels[idx],percentage[idx].item()) for idx in indices[0][:5]])
 
 
 #P3 for problem 2
-with torch.cuda.device(0):
-  macs, params = get_model_complexity_info(mobilenet, (3, 224, 224))
-  print('{:<30}  {:<8}'.format('Computational complexity: ', macs))
-  print('{:<30}  {:<8}'.format('Number of parameters: ', params))
+# with torch.cuda.device(0):
+#   macs, params = get_model_complexity_info(mobilenet, (3, 224, 224))
+#   print('{:<30}  {:<8}'.format('Computational complexity: ', macs))
+#   print('{:<30}  {:<8}'.format('Number of parameters: ', params))

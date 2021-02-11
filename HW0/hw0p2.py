@@ -90,7 +90,7 @@ netG.eval()
 preprocess = transforms.Compose([transforms.Resize(256),
                                  transforms.ToTensor()])
 
-img = Image.open('horsepics/manyhorse1.jpg')
+img = Image.open('horsepics/closehorse.jpeg')
 img_t = preprocess(img)
 batch_t = torch.unsqueeze(img_t, 0)
 batch_out = netG(batch_t)

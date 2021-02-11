@@ -9,7 +9,7 @@ Running of pretrained resnetgen to input horse image, and ouput zebra image. Run
 ### Problem 3
 Observing the computational complexity and number of parameters of various models using ptflops. Included in hw0p1.py and hw0p2.py
 
-## Problem 4
+### Problem 4
 Recreating same image prediction as completed in Problem #1, but using the mobilenet model. Similarly, measuring the computational complexity and number of parameters as well. Included in hw0p4.py. https://pytorch.org/hub/pytorch_vision_mobilenet_v2/ used as reference. 
 
 

@@ -7,7 +7,8 @@ Running of pretrained resnet101 model as in hw0p1.py. Five different images were
 Running of pretrained resnetgen to input horse image, and ouput zebra image. Run similar to Problem #1, and modify line 93 to differnet horse input image options to observe output. Large portions of code cloned from https://github.com/deep-learning-with-pytorch/dlwpt-code/blob/master/p1ch2/3_cyclegan.ipynb
 
 ### Problem 3
-Observing the computational complexity and number of parameters of various models using ptflops. Included in hw0p1.py and hw0p2.py
+Observing the computational complexity and number of parameters of various models using ptflops. Included in hw0p1.py and hw0p2.py  
+https://pypi.org/project/ptflops/
 
 ### Problem 4
 Recreating same image prediction as completed in Problem #1, but using the mobilenet model. Similarly, measuring the computational complexity and number of parameters as well. Included in hw0p4.py. https://pytorch.org/hub/pytorch_vision_mobilenet_v2/ used as reference. 

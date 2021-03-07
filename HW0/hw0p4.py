@@ -43,6 +43,6 @@ print([(labels[idx],percentage[idx].item()) for idx in indices[0][:5]])
 
 #P3 for problem 2 - MACs and # of params
 with torch.cuda.device(0):
-  macs, params = get_model_complexity_info(mobilenet, (3, 224, 224))
+  macs, params = get_model_complexity_info(mobilenet, (3,224, 224))
   print('{:<30}  {:<8}'.format('Computational complexity: ', macs))
   print('{:<30}  {:<8}'.format('Number of parameters: ', params))

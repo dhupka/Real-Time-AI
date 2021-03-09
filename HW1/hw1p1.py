@@ -2,6 +2,7 @@
 #ECGR 4090 - Real-Time AI Spring 2021
 #03/09/2021
 #Homework #1
+#Problem #1
 #Code adapted from: https://pytorch.org/hub/ultralytics_yolov5/
 import torch
 import time
@@ -17,10 +18,11 @@ imgs8 = [dir + f for f in ('ac.jpeg', 'bicycle.jpeg', 'bread.jpeg', 'bus.jpeg',
 imgs16 = [dir + f for f in ('ac.jpeg', 'bicycle.jpeg', 'bread.jpeg', 'bus.jpeg', 
  'candle.jpeg', 'computer.jpeg', 'dogs.jpeg', 'eggs.jpeg', 'firetruck.jpeg', 'pencil.jpg',
  'salad.jpeg', 'soap.jpeg', 'toothbrush.jpeg', 'wagon.jpeg', 'table.jpeg')] 
+intersection = 'intersection(nyc_street).jpg'
 
 # Inference
 start = time.time()         #Beginning of measuring execution time
-results = model(imgs16)
+results = model(intersection)
 stop = time.time()          #Ending of measuring execution time
 duration = stop - start
 

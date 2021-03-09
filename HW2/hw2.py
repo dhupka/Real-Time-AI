@@ -34,7 +34,8 @@ print(torch.sqrt(temp))
 #Cast to type Float
 
 #1.e Is there a version of the function that operates in place?
-
+print(torch.cos_(temp))
+print(torch.sqrt_(temp))
 
 #Problem 2
 #2.a take RGB pics

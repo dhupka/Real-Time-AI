@@ -21,7 +21,7 @@ YOLO.v5 was run across every model size to measure execution time, and using an 
 YOLO.v5 inference was run on the NVIDIA Jetson Nano with varying model sizes (s,m,l,x) and of varying batch sizes (1,8,16). The execution time was similarly observed is in Problem 1. his solution is included in the "HW1/hw1p2.py" using varying batch size, and varying the model size. Code Adapted from https://pytorch.org/hub/ultralytics_yolov5/  
 
 ### Problem 3  
-Real-time Inference was ran on the NVIDIA Jetson Nano using the YOLO.v5s model. The camera was read from directly using the "detect.py" framwork provided by https://github.com/ultralytics/yolov5https://github.com/ultralytics/yolov5. Similarly, the jetcam interface was used to do the same real-time inference.  
+Real-time Inference was ran on the NVIDIA Jetson Nano using the YOLO.v5s model. The camera was read from directly using the "detect.py" framwork provided by https://github.com/ultralytics/yolov5https://github.com/ultralytics/yolov5. The "detect.py" was slightly modified to also calculate the FPS and display to terminal output.
 
 ## HW2  
 #### Problem 1

@@ -11,3 +11,5 @@ Jetcam was not utilized in implementation due to difficulty in versioning and en
 Thus, the camera was read directly using the "detect.py" framework provided by YOLO.v5 code was adapted from such https://github.com/ultralytics/yolov5. "detect.py" was modified to also measure the FPS of the inferrence by calculalting 1/inference time (t2-t1) and printing this value to the output terminal. 
 "detect.py" can be run using a webcam by running "python3 detect.py --source 0" from the "/HW1/yolov5" directory. 
 A link to a demonstration of this real-time inference is here: 
+
+Link to github repository for further information: https://github.com/dhupka/Real-Time-AI/

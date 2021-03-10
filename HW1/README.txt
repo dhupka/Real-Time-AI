@@ -10,6 +10,7 @@ Problem 3:
 Jetcam was not utilized in implementation due to difficulty in versioning and enabling jetcam to recognize USB camera. Attempts were made to modify jetcam source and rebuild setup.py with python3 to enable functionality, but this fix did not work. 
 Thus, the camera was read directly using the "detect.py" framework provided by YOLO.v5 code was adapted from such https://github.com/ultralytics/yolov5. "detect.py" was modified to also measure the FPS of the inferrence by calculalting 1/inference time (t2-t1) and printing this value to the output terminal. 
 "detect.py" can be run using a webcam by running "python3 detect.py --source 0" from the "/HW1/yolov5" directory. 
-A link to a demonstration of this real-time inference is here: 
+A link to a demonstration of this real-time inference is here: https://www.youtube.com/watch?v=RotBcp7MCVM
 
 Link to github repository for further information: https://github.com/dhupka/Real-Time-AI/
+Link to live demo for problem 3: https://www.youtube.com/watch?v=RotBcp7MCVM

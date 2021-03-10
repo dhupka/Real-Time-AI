@@ -13,7 +13,7 @@ https://pypi.org/project/ptflops/
 #### Problem 4
 Recreating same image prediction as completed in Problem #1, but using the mobilenet model. Similarly, measuring the computational complexity and number of parameters as well. Included in hw0p4.py. https://pytorch.org/hub/pytorch_vision_mobilenet_v2/ used as reference. 
 
-## HW1  
+## HW1 - Further instructions are included within the HW1 directory README.txt
 #### Problem 1 
 YOLO.v5 was run across every model size to measure execution time, and using an image of an intersection across each model size to examine output. This solution is included in the "HW1/hw1p1.py" using a batch size of 1, and varying the model size, or using the provided intersection image, similarly modifying the model size. Code Adapted from https://pytorch.org/hub/ultralytics_yolov5/.  
 
@@ -23,7 +23,7 @@ YOLO.v5 inference was run on the NVIDIA Jetson Nano with varying model sizes (s,
 ### Problem 3  
 Real-time Inference was ran on the NVIDIA Jetson Nano using the YOLO.v5s model. The camera was read from directly using the "detect.py" framwork provided by https://github.com/ultralytics/yolov5https://github.com/ultralytics/yolov5. The "detect.py" was slightly modified to also calculate the FPS and display to terminal output.
 
-## HW2  
+## HW2  Further instructions are included within the HW2 directory README.txt
 #### Problem 1
 Solution included in "hw2.py".  
 

@@ -4,8 +4,7 @@ Similarly, modify line 25 to be "intersection" and modify the model sizes again 
 Analysis upon data is within "Hupka_HW1_Report.pdf"
 
 Problem 2: 
-Solution is in hw1p2y. 2.1 ran the YOLO.v5s model on a batch size of 1,8,16 this can be run by changing line 25 to be "imgs1, imgs8, or imgs16" respectively and for section 2.2 ran each of these batch sizes on all available model sizes.
-Ensure that file structure is spared as HW1/input/"XXXX" where "XXXX" are the input images, and that "hw1p2.py" is being run from the HW1 directory. Analysis upon data is within "Hupka_HW1_Report.pdf".
+Solution is in hw1p2y. 2.1 ran the YOLO.v5s model on a batch size of 1,8,16 this can be run by changing line 25 to be "imgs1, imgs8, or imgs16" respectively. Also, modifying the model size if necessary in measuring other varying execution time. Ensure that file structure is spared as HW1/input/"XXXX" where "XXXX" are the input images, and that "hw1p2.py" is being run from the HW1 directory. Analysis upon data is within "Hupka_HW1_Report.pdf".
 
 Problem 3:
 Jetcam was not utilized in implementation due to difficulty in versioning and enabling jetcam to recognize USB camera. Attempts were made to modify jetcam source and rebuild setup.py with python3 to enable functionality, but this fix did not work. 

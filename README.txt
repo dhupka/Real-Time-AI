@@ -1,0 +1,3 @@
+All required files to run are contained either within the HW3 directory or the HW3P2P3 directories respectively. Please maintain file structure when exporting if attempting to run the code. 
+The report is contained within the submission package, and included separately from the package.
+Associated GitHub repository for this homework: https://github.com/dhupka/Real-Time-AI -- However, if cloning the HW3P2P3 directory please note that the "live_demo.py" or "hw3p3.py" files cannot be run as necessary files to run these applications were too large to upload to github. Thus, only use the Github repository for viewing code purposes, and the submission package if attempting to demo, thank you.

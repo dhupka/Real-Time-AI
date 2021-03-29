@@ -28,4 +28,16 @@ Real-time Inference was ran on the NVIDIA Jetson Nano using the YOLO.v5s model. 
 Solution included in "hw2.py".  
 
 #### Problem 2  
-Solution included in "hw2.py."
+Solution included in "hw2.py."  
+
+## HW3  
+#### Problem 1  
+Solution included in varying hw1p1.py or similar files.  
+
+#### Problem 2
+Solution included in "live_demo.py".  
+
+#### Problem 3 
+Solution included in "hw3p3.py".  
+
+

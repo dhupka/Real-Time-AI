@@ -40,4 +40,11 @@ Solution included in "live_demo.py".
 #### Problem 3 
 Solution included in "hw3p3.py".  
 
+## HW4  
+#### Problem 1  
+Solution included in "hw4p1ab.ipynb".  
+
+#### Problem 2
+Solutions included in the "hw4p2a.ipynb" and "hw4p2bc.ipynb".
+
 

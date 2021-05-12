@@ -47,4 +47,6 @@ Solution included in "hw4p1ab.ipynb".
 #### Problem 2
 Solutions included in the "hw4p2a.ipynb" and "hw4p2bc.ipynb".
 
+## FINAL PROJECT
+Instructions for running are included in the "yolov4_bdd100k" folder README
 

@@ -9,10 +9,10 @@ HW3P2P3/test.mp4
 HW3P2P3/test2.mp4
 RTAI Final Project Proposal.pdf
 data-unversioned
-yolov4_bdd100k/YoloV4/cars.mp4
-yolov4_bdd100k/YoloV4/exampleworkzone.mp4
-yolov4_bdd100k/YoloV4/Demos/Bridge.mp4
-yolov4_bdd100k/YoloV4/Demos/IndianMotorway.mp4
-yolov4_bdd100k/YoloV4/Output/YoloDeepDistance.mp4
-yolov4_bdd100k/YoloV4/Demos/IndianMotorway2.mp4
-yolov4_bdd100k/YoloV4/weights/best.pt
+FinalProjectVehicle/Source/cars.mp4
+FinalProjectVehicle/Source/exampleworkzone.mp4
+FinalProjectVehicle/Source/Demos/Bridge.mp4
+FinalProjectVehicle/Source/Demos/IndianMotorway.mp4
+FinalProjectVehicle/Source/Output/YoloDeepDistance.mp4
+FinalProjectVehicle/Source/Demos/IndianMotorway2.mp4
+FinalProjectVehicle/Source/weights/best.pt

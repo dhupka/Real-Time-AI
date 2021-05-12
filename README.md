@@ -1,4 +1,13 @@
-# Real-Time-AI - Spring 2021 ECGR 4090
+# Real-Time-AI - Spring 2021 ECGR 4090  
+## FINAL PROJECT
+Any necessary code review is within the "detect.py" file in FinalProjectVehicle/Source
+Run "./runMe.sh" with any necessary argument changes based on configuration
+PLEASE DOWLOAD THE TRAINED MODEL BEFORE ATTEMPTING TO RUN AT: https://drive.google.com/file/d/1jL-aVRtBkP5Io93YWTxxlax0islc-sKG/view?usp=sharing
+PLACE "best.pt" within the "FinalProjectVehicle/Source/weights" directory to ensure proper functionality.
+When cloning into the repository ensure file directory structure is spared.
+Similarly, modify the "./runMe.sh" --source argument to be "0" for a webcam or "XXXXXX.mp4" so long as "XXXXX.mp4" is within the "./runMe.sh" directory
+
+
 ## HW0
 #### Problem 1 
 Running of pretrained resnet101 model as in hw0p1.py. Five different images were passed into the model and the accuracies of which can be observed my running. In order to run clone repository and extract maintaining same file structure. Modify line 21 of hw0p1.py to be desired image i.e "randomResNetPics/fan.jpg". Large portions of code cloned from  https://github.com/deep-learning-with-pytorch/dlwpt-code/blob/master/p1ch2/2_pre_trained_networks.ipynb  
@@ -46,7 +55,4 @@ Solution included in "hw4p1ab.ipynb".
 
 #### Problem 2
 Solutions included in the "hw4p2a.ipynb" and "hw4p2bc.ipynb".
-
-## FINAL PROJECT
-Instructions for running are included in the "yolov4_bdd100k" folder README
 

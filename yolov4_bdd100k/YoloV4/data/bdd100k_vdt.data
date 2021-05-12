@@ -1,0 +1,4 @@
+classes= 8
+train= /mnt/AI_2TB/dataset/bdd100k/images/100k/train/train.txt
+valid= /mnt/AI_2TB/dataset/bdd100k/images/100k/val/val.txt
+names= /home/mbaharan/VDT/YoloV4/data/bdd100k_vdt.names

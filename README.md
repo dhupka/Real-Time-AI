@@ -1,11 +1,11 @@
 # Real-Time-AI - Spring 2021 ECGR 4090  
 ## FINAL PROJECT
-Any necessary code review is within the "detect.py" file in FinalProjectVehicle/Source
-Run "./runMe.sh" with any necessary argument changes based on configuration
-PLEASE DOWLOAD THE TRAINED MODEL BEFORE ATTEMPTING TO RUN AT: https://drive.google.com/file/d/1jL-aVRtBkP5Io93YWTxxlax0islc-sKG/view?usp=sharing
-PLACE "best.pt" within the "FinalProjectVehicle/Source/weights" directory to ensure proper functionality.
-When cloning into the repository ensure file directory structure is spared.
-Similarly, modify the "./runMe.sh" --source argument to be "0" for a webcam or "XXXXXX.mp4" so long as "XXXXX.mp4" is within the "./runMe.sh" directory
+Any necessary code review is within the "detect.py" file in FinalProjectVehicle/Source  
+Run "./runMe.sh" with any necessary argument changes based on configuration  
+PLEASE DOWLOAD THE TRAINED MODEL BEFORE ATTEMPTING TO RUN AT: https://drive.google.com/file/d/1jL-aVRtBkP5Io93YWTxxlax0islc-sKG/view?usp=sharing  
+PLACE "best.pt" within the "FinalProjectVehicle/Source/weights" directory to ensure proper functionality.  
+When cloning into the repository ensure file directory structure is spared.  
+Similarly, modify the "./runMe.sh" --source argument to be "0" for a webcam or "XXXXXX.mp4" so long as "XXXXX.mp4" is within the "./runMe.sh" directory  
 
 
 ## HW0
